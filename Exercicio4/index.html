@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulário de Cadastro</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<form>
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" required>
+
+  <label for="curso">Curso:</label>
+  <select id="curso" name="curso" required>
+    <option value="" disabled selected>Selecione um curso</option>
+    <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+    <option value="medicina">Medicina</option>
+    <option value="engenharia">Engenharia</option>
+    <option value="direito">Direito</option>
+  </select>
+
+  <button type="submit">Cadastrar</button>
+</form>
+
+</body>
+</html>
