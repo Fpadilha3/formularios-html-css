@@ -1,0 +1,19 @@
+button {
+  background-color: #4CAF50; /* verde */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* verde mais escuro no hover */
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
